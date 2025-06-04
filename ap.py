@@ -38,7 +38,7 @@ st.set_page_config(page_title="Gemini Invoice Extraction ")
 
 # Header
 st.title("Multilingual Invoice Extraction")
-st.subheader("Anushka's First Gemini Application")
+st.subheader("Gemini Application")
 
 input=st.text_input("Enter your Prompt: ",key="input")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
